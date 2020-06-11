@@ -1,0 +1,31 @@
+body {
+font-family:sans-serif;
+background-image: url(../fundo-tijolo.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+p {
+  color: gray;
+  /* background-color: orange; */
+  background-color: rgba(0,0,0,0.1)
+  }
+
+#primeiro-paragrafo {
+/* color: orange; */
+text-align: left;
+font-weight: bold;
+}
+
+.titulo {
+  text-transform: uppercase;
+    text-align: center;
+}
+
+ul li {
+font-style:italic;
+
+}

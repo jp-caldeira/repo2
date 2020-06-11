@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastre-se</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilera.css">
+
+
+<!-- a tag style permite que você edite o css dentro do arquivo html (mas não é
+lá muito esperto porque pode ficar muito grande e bagunçado) -->
+<!-- <style>
+   input {
+background-color: red;
+
+   }
+</style> -->
+
+  </head>
+
+  <body>
+    <div class='container'>
+              <header>
+                <div>
+                        <a href="#" class='logo'>Exercícios</a>
+                      </div>
+                    <nav>
+                         <ul>
+                              <li>
+                                  <a href='quemsomos.html'>Quem somos</a>
+                              </li>
+                              <li>
+                                  <a href='produtos.html'>Produtos</a>
+                              </li>
+                              <li>
+                                  <a href='https://livrosdojoao.com'>História</a>
+                              </li>
+                              <li>
+                                  <a href='cadastro.html'>Cadastro</a>
+                              </li>
+                        </ul>
+                    </nav>
+                  </header>
+
+      </div>
+<br>
+<br>
+<br>
+
+      <div class='container'>
+              <div class='container'>
+                <h1>Faça seu cadastro!</h1>
+                <ul>
+                      <li>primeiro item</li>
+                      <li>segundo item</li>
+                      <li>terceiro item</li>
+                      <li>quarto item</li>
+                    </ul>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                <p>aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                 <p>voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                 <form action="cadastro.html" method="post">
+                                      <label for="nomeCompleto">Nome completo:</label><br>
+                                      <input type="text" name="nomeCompleto" id='nomeCompleto' class="form-control"placeholder="Digite aqui o seu nome completo">
+                                      <!-- <input type='submit' name="Enviar" value="Enviar"> -->
+                                       <br>
+                                      <label for="email">Email:</label><br>
+                                      <input type="email" name="email" id='email' class="form-control" placeholder='seunome@email.com'>
+                                      <br>
+                                      <label for="senha">Senha</label><br>
+                                      <input type='password' name="senha" class="form-control" id="senha">
+
+                                      <br>
+                                      <br>
+
+                                    <label for='time'>Para qual time você torce?</label><br>
+                                    <label for='Corinthians'><input type='radio' id='Corinthians' name='time' value='Corinthians' checked>Corinthians</label><br>
+                                    <label for='Flamengo'><input type='radio' id='Flamengo' name='time' value='Flamengo'>Flamengo</label><br>
+                                    <label for='Outro'><input type='radio' id='Outro' name='time' value='Outro'>Outro</label>
+                                    <br>
+                                    <br>
+                                    <label for='esportes'>Quais esportes você gosta de acompanhar?</label><br>
+                                    <label for='futebol'><input type='checkbox' id='futebol' name='esportes' value='futebol' checked>Futebol</label><br>
+                                    <label for='formula1'><input type='checkbox' id='formula1' name='esportes' value='formula1'>Fórmula 1</label><br>
+                                    <label for='hipismo'><input type='checkbox' id='hipismo' name='esportes' value='hipismo'>Hipismo</label><br>
+                                    <label for='futebol-americano'><input type='checkbox' id='futebol-americano' name='esportes' value='futebol-americano'>Futebol Americano</label><br>
+                                    <label for='basquete'><input type='checkbox' id='basquete' name='esportes' value='basquete'>Basquete</label>
+                                    <br>
+                                    <br>
+                                <!-- tag select -->
+                                   <label for='select'>Tag Select ('ou selecionar', no bom e velho português), permite que o usuário escolha uma opção só dentro de uma caixinha. Olha como fica:</label>
+                                   <br>
+                                   <br>
+                                      <select name="selecionar" class="form-control">
+                                      <option selected disabled>Selecione uma opção:</option>
+                                      <option value="atagselect">A tag select(ou 'selecionar')</option>
+                                      <option value="tbempermite">Também permite</option>
+                                      <option value="queousuario">que o usuário escolha</option>
+                                      <option value="entre diferentes opções">entre diferentes opções</option>
+                                      <br>
+                                    </select>
+                                   <br>
+                                   <br>
+                                    <label for='paisOrigem'>País de Origem:</label>
+                                    <br>
+                                    <br>
+                                    <select name='paisOrigem' class="form-control">
+                                      <option selected disabled='selecionar'>selecione seu país:</option>
+                                      <option value='Brasil'>Brasil</option>
+                                      <option value='Argentina'>Argentina</option>
+                                      <option value='Uruguai'>Uruguai</option>
+                                      <option value='Chile'>Chile</option>
+                                      <option value='Paraguai'>Paraguai</option>
+                                    </select>
+
+                                   <br>
+                                   <br>
+                                   <img src="C:\Users\Joao Paulo\Documents\projeto01\foco-concentração-5.jpg"
+                                        alt="Imagem Ilustrativa"
+                                        width=520
+                                        height=300/>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <br>
+                                  <!-- tag text area  -->
+                                   <label for='comentarios'>Deixe seu comentário:</label><br>
+                                   <textarea name='comentarios' id='comentarios' class="form-control">digite seu comentário aqui....</textarea>
+
+
+
+                                            <br>
+                                            <br>
+                                            <button type="submit" class='btn btn-primary'>Enviar</button>
+                                            <button type='reset' class='btn btn-secondary'>Apagar TUDO</button>
+                                            <button type='button' class='btn btn-danger'>botão tipo button, que você pode mudar a ação via javascript</button>
+                 </form>
+                 </div>
+         </div>
+         <script
+           src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+           integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+           crossorigin="anonymous"></script>
+
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+</html>
